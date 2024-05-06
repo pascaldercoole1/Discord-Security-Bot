@@ -30,10 +30,13 @@ SPAM_CHANNEL_LOCK_DURATION = 10  # 300 in seconds (5 minutes)
 ## I NEED TO DO THAT BECAUSE RENDER DOESNT SAVE MY FILES!!!
 
 guild_id = 1221843659662819388
-path = f"Guilds/VerifyRole/{guild_id}"
+directory = f"Guilds/VerifyRole/"
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+path = f"{directory}{guild_id}"
 with open(path, "w") as file:
     file.write(str(1237108783591718976))
-
 
 ## TEST ##
 
