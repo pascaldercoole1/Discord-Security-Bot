@@ -25,6 +25,17 @@ SPAM_MESSAGE_THRESHOLD = 6
 SPAM_CHANNEL_LOCK_DURATION = 10  # 300 in seconds (5 minutes)
 ## SETTINGS ##
 
+## TEST ##
+
+## I NEED TO DO THAT BECAUSE RENDER DOESNT SAVE MY FILES!!!
+
+guild_id = 1221843659662819388
+path = f"Guilds/VerifyRole/{guild_id}"
+  with open(path, "w") as file:
+    file.write(str(1237108783591718976))
+
+## TEST ##
+
 join_counter = 0
 
 # Ein Dictionary zum Speichern von Nachrichten pro Mitglied und Kanal
