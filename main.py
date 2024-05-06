@@ -31,8 +31,9 @@ SPAM_CHANNEL_LOCK_DURATION = 10  # 300 in seconds (5 minutes)
 
 guild_id = 1221843659662819388
 path = f"Guilds/VerifyRole/{guild_id}"
-  with open(path, "w") as file:
+with open(path, "w") as file:
     file.write(str(1237108783591718976))
+
 
 ## TEST ##
 
