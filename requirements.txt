@@ -2,5 +2,4 @@ discord
 requests
 flask
 asyncio
-threading
 pytz
